@@ -40,7 +40,6 @@ const Section = ({children, title}): Node => {
           },
         ]}>
         {title}
-        오예
       </Text>
       <Text
         style={[

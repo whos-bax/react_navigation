@@ -19,9 +19,45 @@ class App extends Component {
   render() {
     return (
       <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="User" component={UserScreen} />
+        <Stack.Navigator
+          initialRouteName="Home"
+          screenOptions={{
+            headerStyle: {
+              backgroundColor: 'skyblue',
+            },
+            headerTintColor: 'white',
+            headerTitleStyle: {
+              fontWeight: 'bold',
+              color: 'white',
+            },
+          }}>
+          <Stack.Screen
+            name="Home"
+            options={{
+              title: 'Home Screen',
+            }}
+            component={HomeScreen}
+          />
+          <Stack.Screen
+            name="User"
+            options={{
+              title: 'User Screen',
+              headerStyle: {
+                backgroundColor: 'black',
+              },
+              headerTintColor: 'white',
+              headerTitleStyle: {
+                fontWeight: 'bold',
+                color: 'yellow',
+              },
+            }}
+            component={UserScreen}
+            initialParams={{
+              userIdx: 50,
+              userName: 'Gil-dong',
+              userLastName: 'Go',
+            }}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     );

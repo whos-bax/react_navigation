@@ -1,6 +1,6 @@
 # react_navigation
 
-[ Stack ]
+### [ Stack ]
 1. 화면 Linking
 2. Navigation Params
 3. Header Bar 설정
@@ -8,14 +8,15 @@
 5. Header Bar 커스터마이징
 6. Header Bar에 버튼 추가
 
-[ Drawer ]
+### [ Drawer ] <br/>
 7. 설치 및 화면 Linking
 8. Style 설정
 9. Custom Component
 
-[ Tab ]
+### [ Tab ] <br/>
 10. 설치 및 화면 Linking
 11. Style 설정
 
+### ---
 12. React Native Vector Icons
 13. Nesting Navigators

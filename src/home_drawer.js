@@ -22,7 +22,7 @@
          <Button
            title="To User Screen"
            onPress={() => {
-             this.props.navigation.navigate('User');
+             this.props.navigation.navigate('Home');
            }}
          />
        </View>

@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-// import 'react-native-gesture-handler';
+import 'react-native-gesture-handler';
 import React, {Component} from 'react';
 import {StyleSheet, View, Text, Image, Button} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
